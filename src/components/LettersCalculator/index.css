@@ -1,0 +1,67 @@
+/* Write your code here. */
+.bg-container {
+  background: #1d976c;
+  background: linear-gradient(
+    90deg,
+    rgba(29, 151, 108, 1) 0%,
+    rgba(147, 249, 185, 1) 100%
+  );
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cal-image {
+  width: 550px;
+  height: 450px;
+}
+
+.text-img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.label {
+  font-family: 'Roboto';
+  font-size: 11px;
+  color: #ffffff;
+}
+
+.input-box {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  min-width: 300px;
+  height: 30px;
+  margin-top: 10px;
+  padding: 5px;
+  color: #ffffff;
+  outline: none;
+}
+
+.letter-count-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  color: #219a6f;
+  background-color: #ffffff;
+  height: 50px;
+  width: 160px;
+  border: none;
+  border-radius: 7px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
